@@ -22,7 +22,7 @@ main {
 }
 #parent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .contents {
   border: solid 3px rgb(238, 204, 204);
@@ -61,7 +61,7 @@ a {
 a:visited {
   color: rgb(193, 234, 251);
 }
-a:active {
+a:hover {
   color: rgb(245, 178, 168);
 }
 
